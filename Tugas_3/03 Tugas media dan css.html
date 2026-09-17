@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Pembelajaran Mata Kuliah Algoritma dan Struktur Data</title>
+    <link rel="stylesheet" href="03-tugas-style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="page__header">
+        <h1 class="page__title">
+          Media Pembelajaran Mata Kuliah Algoritma dan Struktur Data
+        </h1>
+        <p class="page__intro">
+          Platform pembelajaran mata kuliah Algoritma dan Struktur Data dibuat
+          oleh Muh. Nadhiftamma Ayatilla (D121241017), selamat belajar.
+        </p>
+      </header>
+
+      <article class="card">
+        <picture class="card__cover">
+          <source
+            srcset="media/sampul-besar.webp"
+            media="(min-width: 900px)"
+            type="image/webp"
+          />
+          <source
+            srcset="media/sampul-kecil.webp"
+            media="(max-width: 899px)"
+            type="image/webp"
+          />
+          <img
+            class="card__cover-img"
+            src="media/sampul-fallback.jpg"
+            alt="Ilustrasi sampul materi Algoritma dan Struktur Data"
+            loading="lazy"
+          />
+        </picture>
+
+        <div class="card__body">
+          <!-- ===== BAGIAN 1: Apa itu Algoritma ===== -->
+          <section class="card__section">
+            <h2 class="card__title">Apa itu Algoritma?</h2>
+
+            <p class="card__desc">
+              Sebelum itu, mari kita dengarkan penjelasan berikut.
+            </p>
+
+            <audio class="card__audio" controls preload="none">
+              <source src="media/penjelasan-algoritma.mp3" type="audio/mpeg" />
+              <source src="media/penjelasan-algoritma.ogg" type="audio/ogg" />
+              Peramban Anda tidak mendukung pemutaran audio HTML5.
+            </audio>
+
+            <p class="card__desc">
+              Algoritma adalah urutan langkah-langkah logis dan sistematis untuk
+              menyelesaikan suatu masalah, yang disusun secara terstruktur agar
+              dapat dieksekusi baik oleh manusia maupun komputer.
+            </p>
+
+            <p class="card__desc">Contoh algoritma:</p>
+            <ul class="card__list">
+              <li>Algoritma pencarian (Linear Search, Binary Search)</li>
+              <li>
+                Algoritma pengurutan (Bubble Sort, Merge Sort, Quick Sort)
+              </li>
+              <li>
+                Algoritma pencarian rute terpendek (Dijkstra, Bellman-Ford)
+              </li>
+            </ul>
+
+            <p class="card__desc">
+              Mari kita simak video berikut untuk memahami lebih lanjut terkait
+              algoritma.
+            </p>
+
+            <video
+              class="card__video"
+              controls
+              preload="metadata"
+              poster="media/poster-algoritma.jpg"
+            >
+              <source src="media/video-algoritma.webm" type="video/webm" />
+              <source src="media/video-algoritma.mp4" type="video/mp4" />
+              Peramban Anda tidak mendukung pemutaran video HTML5.
+            </video>
+          </section>
+
+          <!-- ===== BAGIAN 2: Apa itu Struktur Data ===== -->
+          <section class="card__section">
+            <h2 class="card__title">Apa itu Struktur Data?</h2>
+
+            <p class="card__desc">
+              Sebelum itu, mari kita dengarkan penjelasan berikut.
+            </p>
+
+            <audio class="card__audio" controls preload="none">
+              <source
+                src="media/penjelasan-struktur-data.mp3"
+                type="audio/mpeg"
+              />
+              <source
+                src="media/penjelasan-struktur-data.ogg"
+                type="audio/ogg"
+              />
+              Peramban Anda tidak mendukung pemutaran audio HTML5.
+            </audio>
+
+            <p class="card__desc">
+              Struktur data adalah cara pengorganisasian dan penyimpanan data di
+              dalam komputer agar data tersebut dapat diakses dan diolah secara
+              efisien sesuai kebutuhan program.
+            </p>
+
+            <p class="card__desc">Contoh struktur data:</p>
+            <ul class="card__list">
+              <li>Array dan Linked List</li>
+              <li>Stack dan Queue</li>
+              <li>Tree dan Graph</li>
+            </ul>
+
+            <p class="card__desc">
+              Mari kita simak video berikut untuk memahami lebih lanjut terkait
+              struktur data.
+            </p>
+
+            <video
+              class="card__video"
+              controls
+              preload="metadata"
+              poster="media/poster-struktur-data.jpg"
+            >
+              <source src="media/video-struktur-data.webm" type="video/webm" />
+              <source src="media/video-struktur-data.mp4" type="video/mp4" />
+              Peramban Anda tidak mendukung pemutaran video HTML5.
+            </video>
+          </section>
+
+          <!-- ===== BAGIAN 3: Kesimpulan ===== -->
+          <section class="card__section card__section--highlight">
+            <h2 class="card__title">Kesimpulan</h2>
+            <p class="card__desc">
+              Algoritma dan struktur data merupakan dua konsep yang saling
+              melengkapi dalam pemrograman. Algoritma menentukan langkah-langkah
+              penyelesaian masalah, sementara struktur data menentukan cara data
+              disimpan dan diakses agar algoritma tersebut dapat berjalan secara
+              efisien. Pemahaman yang baik terhadap keduanya menjadi dasar
+              penting dalam membangun program yang optimal.
+            </p>
+          </section>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
