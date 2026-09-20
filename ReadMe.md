@@ -41,4 +41,4 @@ Generate image dan membantu copywriting.
 Membuat portal Jurnal Artikel Ilmiah yang diteliti oleh dosen di Fakultas Teknik universitas hasanuddin.
 
 **Transparansi Penggunaan AI:**
-Membantu menulis copywriting dan mencari publikasi yang diteliti oleh dosen Teknik Informatika Unhas, serta membantu sebagian di bagian file css.
+Membantu menulis copywriting dan mencari publikasi yang diteliti oleh dosen Teknik Unhas, serta membantu sebagian di bagian file css.
