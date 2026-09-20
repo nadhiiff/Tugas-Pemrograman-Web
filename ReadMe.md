@@ -32,3 +32,13 @@ Membuat portal pembelajaran (pada tugas ini dibuat portal pembelajaran Algoritma
 
 **Transparansi Penggunaan AI:**
 Generate image dan membantu copywriting.
+
+---
+
+## Tugas 4
+
+**Deskripsi:**
+Membuat portal Jurnal Artikel Ilmiah yang diteliti oleh dosen di Fakultas Teknik universitas hasanuddin.
+
+**Transparansi Penggunaan AI:**
+Membantu menulis copywriting dan mencari publikasi yang diteliti oleh dosen Teknik Informatika Unhas, serta membantu sebagian di bagian file css.
