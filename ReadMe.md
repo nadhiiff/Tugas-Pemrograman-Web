@@ -42,3 +42,7 @@ Membuat portal Jurnal Artikel Ilmiah yang diteliti oleh dosen di Fakultas Teknik
 
 **Transparansi Penggunaan AI:**
 Membantu menulis copywriting dan mencari publikasi yang diteliti oleh dosen Teknik Unhas, serta membantu sebagian di bagian file css.
+
+## Transparansi Penggunaan AI
+
+Dalam pengerjaan tugas ini saya menggunakan asisten AI (Claude, oleh Anthropic) sebagai alat bantu. AI dipakai untuk menyusun draf awal kode `Transaction.php` dan `finance.php` berdasarkan spesifikasi tugas, menyusun draf dokumentasi `README.md`, serta membantu saya memahami penyebab dan solusi error `git push`. Setelah itu, saya membaca dan mempelajari seluruh kode, memahami cara kerja setiap bagiannya (constructor property promotion, ekspresi `match`, validasi CSRF, dan `htmlspecialchars`), serta menjalankan dan menguji sendiri sesuai skenario pengujian di atas.
